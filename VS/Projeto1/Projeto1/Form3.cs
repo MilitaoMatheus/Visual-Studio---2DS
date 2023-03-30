@@ -42,12 +42,41 @@ namespace Projeto1
 
             tab = Convert.ToDouble(txtnum.Text);
             i = 1;
-            while (i <= 10){
+            while (i < 11 ){
                 result = tab * i;
                 i++;
+                txtresult.Text = String.Concat(txtresult.Text, " \r\n " , result.ToString());
             }
 
 
+        }
+
+        private void btncalc2_Click(object sender, EventArgs e)
+        {
+            double tab, result, i;
+
+            tab = Convert.ToDouble(txtnum.Text);
+
+            for (i = 1; i < 11; i++)
+            {
+                result = tab * i;
+                txtresult.Text = String.Concat(txtresult.Text, " \r\n ", result.ToString());
+            }
+
+        }
+
+        private void btncalc3_Click(object sender, EventArgs e)
+        {
+            double tab, result, i;
+
+            tab = Convert.ToDouble(txtnum.Text);
+            i = 1;
+            do
+            {
+                result = tab * i;
+                txtresult.Text = String.Concat(txtresult.Text, " \r\n ", result.ToString());
+                i++;
+            } while (i < 11);
         }
     }
 }

@@ -42,7 +42,7 @@
             // btnvoltar
             // 
             this.btnvoltar.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnvoltar.Location = new System.Drawing.Point(97, 331);
+            this.btnvoltar.Location = new System.Drawing.Point(94, 331);
             this.btnvoltar.Name = "btnvoltar";
             this.btnvoltar.Size = new System.Drawing.Size(82, 34);
             this.btnvoltar.TabIndex = 0;
@@ -53,7 +53,7 @@
             // btnlimpar
             // 
             this.btnlimpar.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnlimpar.Location = new System.Drawing.Point(222, 331);
+            this.btnlimpar.Location = new System.Drawing.Point(241, 331);
             this.btnlimpar.Name = "btnlimpar";
             this.btnlimpar.Size = new System.Drawing.Size(82, 34);
             this.btnlimpar.TabIndex = 1;
@@ -66,27 +66,29 @@
             this.btncalc3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btncalc3.Location = new System.Drawing.Point(288, 254);
             this.btncalc3.Name = "btncalc3";
-            this.btncalc3.Size = new System.Drawing.Size(82, 59);
+            this.btncalc3.Size = new System.Drawing.Size(101, 45);
             this.btncalc3.TabIndex = 2;
             this.btncalc3.Text = "Calcular 3";
             this.btncalc3.UseVisualStyleBackColor = true;
+            this.btncalc3.Click += new System.EventHandler(this.btncalc3_Click);
             // 
             // btncalc2
             // 
             this.btncalc2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btncalc2.Location = new System.Drawing.Point(161, 254);
             this.btncalc2.Name = "btncalc2";
-            this.btncalc2.Size = new System.Drawing.Size(82, 59);
+            this.btncalc2.Size = new System.Drawing.Size(101, 45);
             this.btncalc2.TabIndex = 3;
             this.btncalc2.Text = "Calcular 2";
             this.btncalc2.UseVisualStyleBackColor = true;
+            this.btncalc2.Click += new System.EventHandler(this.btncalc2_Click);
             // 
             // btncalc1
             // 
             this.btncalc1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btncalc1.Location = new System.Drawing.Point(30, 254);
             this.btncalc1.Name = "btncalc1";
-            this.btncalc1.Size = new System.Drawing.Size(82, 59);
+            this.btncalc1.Size = new System.Drawing.Size(101, 45);
             this.btncalc1.TabIndex = 4;
             this.btncalc1.Text = "Calcular 1";
             this.btncalc1.UseVisualStyleBackColor = true;
@@ -114,9 +116,12 @@
             // 
             // txtresult
             // 
-            this.txtresult.Location = new System.Drawing.Point(143, 166);
+            this.txtresult.Location = new System.Drawing.Point(143, 153);
+            this.txtresult.Multiline = true;
             this.txtresult.Name = "txtresult";
-            this.txtresult.Size = new System.Drawing.Size(100, 20);
+            this.txtresult.ReadOnly = true;
+            this.txtresult.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txtresult.Size = new System.Drawing.Size(51, 46);
             this.txtresult.TabIndex = 7;
             // 
             // txtnum
@@ -141,6 +146,7 @@
             this.Controls.Add(this.btnlimpar);
             this.Controls.Add(this.btnvoltar);
             this.Name = "frmloop";
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Looping";
             this.Load += new System.EventHandler(this.frmloop_Load);
