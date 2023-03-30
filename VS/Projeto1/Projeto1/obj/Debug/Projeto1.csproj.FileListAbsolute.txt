@@ -1,0 +1,13 @@
+C:\Users\2dsetim\Desktop\VS\Projeto1\Projeto1\bin\Debug\Projeto1.exe.config
+C:\Users\2dsetim\Desktop\VS\Projeto1\Projeto1\bin\Debug\Projeto1.exe
+C:\Users\2dsetim\Desktop\VS\Projeto1\Projeto1\bin\Debug\Projeto1.pdb
+C:\Users\2dsetim\Desktop\VS\Projeto1\Projeto1\obj\Debug\Projeto1.csproj.AssemblyReference.cache
+C:\Users\2dsetim\Desktop\VS\Projeto1\Projeto1\obj\Debug\Projeto1.csproj.SuggestedBindingRedirects.cache
+C:\Users\2dsetim\Desktop\VS\Projeto1\Projeto1\obj\Debug\Projeto1.frmmenu.resources
+C:\Users\2dsetim\Desktop\VS\Projeto1\Projeto1\obj\Debug\Projeto1.frmcomb.resources
+C:\Users\2dsetim\Desktop\VS\Projeto1\Projeto1\obj\Debug\Projeto1.Properties.Resources.resources
+C:\Users\2dsetim\Desktop\VS\Projeto1\Projeto1\obj\Debug\Projeto1.csproj.GenerateResource.cache
+C:\Users\2dsetim\Desktop\VS\Projeto1\Projeto1\obj\Debug\Projeto1.csproj.CoreCompileInputs.cache
+C:\Users\2dsetim\Desktop\VS\Projeto1\Projeto1\obj\Debug\Projeto1.exe
+C:\Users\2dsetim\Desktop\VS\Projeto1\Projeto1\obj\Debug\Projeto1.pdb
+C:\Users\2dsetim\Desktop\VS\Projeto1\Projeto1\obj\Debug\Projeto1.frmloop.resources
